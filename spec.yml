@@ -1,0 +1,21 @@
+#
+# This spec was sent out on June 14, 1988
+#
+
+user: X
+password: Y
+bcc: bob19856001@hotmail.com
+subject: Quandl Update
+from: Tammer Kamel <tammerk@quandl.com>
+body: |
+  Hey Dude ($name):
+
+  Here is the message of the email.
+
+  www.quandl.com
+
+  best
+  Tammer.
+
+file: list.csv
+
