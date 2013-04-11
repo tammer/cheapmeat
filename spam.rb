@@ -32,6 +32,7 @@ def load_list( file )
   CSV.foreach(file) do |row|
     row.map! { |item| item.strip }
     next if row[0] =~ /^#/
+    row << '' if row.size == 1
     rv << row
   end
   rv
