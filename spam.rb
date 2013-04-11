@@ -13,7 +13,6 @@ To: #{to}
 Bcc: #{bcc}
 Reply-to: #{from}
 Subject: #{subject}
-
 #{body}
 eos
   
